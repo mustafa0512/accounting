@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "name": "Сабина Яковлева",
+      "salary": 200,
+      "increase": true,
+      "rise": false,
+      "id": 7
+    },
+    {
+      "name": "Мухаммад",
+      "salary": 200,
+      "increase": false,
+      "rise": false,
+      "id": 7
+    },
+    {
+      "name": "Руфина",
+      "salary": 9000,
+      "increase": false,
+      "rise": false,
+      "id": 8
+    },
+    {
+      "name": "Хуршида",
+      "salary": 100,
+      "increase": false,
+      "rise": false,
+      "id": 9
+    },
+    {
+      "name": "Дилшод Муртазоев",
+      "salary": 5000,
+      "increase": false,
+      "rise": false,
+      "id": 10
+    },
+    {
+      "name": "Ориф",
+      "salary": 1000,
+      "increase": false,
+      "rise": false,
+      "id": 11
+    },
+    {
+      "name": "Улугбек",
+      "salary": 5000,
+      "increase": false,
+      "rise": false,
+      "id": 12
+    },
+    {
+      "name": "Влад Цой",
+      "salary": 3000,
+      "increase": false,
+      "rise": false,
+      "id": 13
+    },
+    {
+      "name": "Алина",
+      "salary": 5000,
+      "increase": false,
+      "rise": false,
+      "id": 14
+    }
+  ]
+}

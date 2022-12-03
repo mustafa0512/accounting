@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+input,
+textarea {
+    outline: none;
+}
+
+input:active,
+textarea:active {
+    outline: none;
+}
+
+:focus {
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.conteiner {
+    width: 1728px;
+    margin: 50px auto;
+}
+
+.block {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 1200px;
+    height: 210px;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #3B597DFF;
+    color: white;
+}
+
+.header_title {
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.header_count {
+    font-size: 35px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.header_bonus {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.input {
+    margin-top: 40px;
+    width: 1200px;
+    height: 170px;
+    padding: 30px 20px;
+    background-color: #3B597DFF;
+}
+
+.search {
+    width: 1160px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+.search_buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    width: 600px;
+    height: 55px;
+    color: white;
+    border: 2px solid white;
+    height: 55px;
+    border-radius: 5px;
+}
+
+.all_staff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 200px;
+    border-right: 2px solid white;
+    cursor: pointer;
+    user-select: none;
+    transition: .2s ease;
+}
+
+.all_staff:hover {
+    color: black;
+    background-color: #fff;
+}
+
+.all_upgrate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 55px;
+    border-right: 2px solid white;
+    cursor: pointer;
+    user-select: none;
+    transition: .2s ease;
+}
+
+.all_upgrate:hover {
+    color: black;
+    background-color: #fff;
+}
+
+.mare {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 55px;
+    width: 200px;
+    cursor: pointer;
+    user-select: none;
+    transition: .2s ease;
+}
+
+.mare:hover {
+    color: black;
+    background-color: #fff;
+}
+
+.workers {
+    border-radius: 5px;
+    margin-top: 40px;
+    position: relative;
+}
+
+.worker_block {
+    display: flex;
+    width: 1200px;
+    height: 100px;
+    border-bottom: 2px solid black;
+}
+
+.worker_block_left {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+    height: 100px;
+    width: 800px;
+    background-color: #fff;
+    border-bottom: 2px solid black;
+}
+
+.worker_block_right {
+    height: 100px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.salary {
+
+    font-size: 25px;
+    margin-right: 230px;
+}
+
+.best {
+    width: 30px;
+}
+
+.delete {
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.star {
+    width: 30px;
+}
+
+.adding {
+    margin-top: 40px;
+    width: 1200px;
+    height: 200px;
+    background-color: #3B597DFF;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+.adding_title {
+    font-size: 42px;
+    font-weight: 500;
+    color: white;
+}
+
+.add_inp_one {
+    width: 350px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.add_inp_two {
+    width: 350px;
+    height: 40px;
+    border: none;
+    margin-top: 40px;
+    border-radius: 5px;
+    margin: 0 20px;
+}
+
+.add_btn {
+    width: 140px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: #3B597DFF;
+}
+
+.inp_val_inp {
+    display: none;
+    width: 180px;
+    height: 40px;
+    position: absolute;
+    padding: 0 50px;
+    border: 2px solid black;
+    font-size: 20px;
+    font-weight: 600;
+}

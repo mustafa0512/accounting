@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="shortcut icon" href="./assets/img/accounting.svg">
+    <title>Учет</title>
+</head>
+
+<body>
+
+    <div class="conteiner">
+
+        <div class="block">
+
+            <div class="header">
+                <div class="header_title">Учет сотрудников в компании</div>
+                <div class="header_count">Общее число сотрудников: 0</div>
+                <div class="header_bonus">Премию получает: 0</div>
+            </div>
+
+
+            <div class="input">
+                <input class="search" id="search" type="text" placeholder="Найти сотрудника">
+
+                <div class="search_buttons">
+                    <div class="all_staff">Все сотрудники</div>
+                    <div class="all_upgrate">На повышении</div>
+                    <div class="mare">З/П больше 1000$</div>
+                </div>
+
+            </div>
+
+            <div class="workers"> </div>
+
+            <div class="adding">
+                <div class="adding_title">Добавить нового сотрудника</div>
+
+                <form name="add">
+                    <input class="add_inp_one" placeholder="Как его зовут" type="text" name="name">
+                    <input class="add_inp_two" placeholder="З/П в $?" type="number" name="salary">
+                    <button class="add_btn">Добавить</button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
